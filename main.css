@@ -1,0 +1,97 @@
+#cover {
+    color: white;
+    width : 100vw; 
+    height: calc(100vw * 0.20);
+    background-color: black;
+    background-image: url("image/home.jpg");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+#back-image {
+    background-image: url("image/back-image.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.cover__title {
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+.content-title {
+    border-left: 15px solid blue;
+}
+
+.profile {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.profile_name {
+    font-size: 20px;
+}
+
+
+.blog {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.blog_date {
+    text-align: right;
+    margin-right: 10px;
+}
+
+
+.contact {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.blog_photo {
+    margin-left: 5px;
+}
+
+.gallery {
+    width: 70%;
+    background-color: white;
+}
+.gallery_item {
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+}
+
+.snsicon {
+    display: inline;
+}
+
+.gallery_item img {
+    border:2px solid #AAAAAA;
+    margin: 0 auto;
+    margin:2px 2px;
+}
+
+.add_link {
+    text-align: right;
+    margin-right: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: green;
+    color: white;
+}
